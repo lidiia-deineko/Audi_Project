@@ -1,0 +1,175 @@
+@media (min-width: 1000px) and (max-width: 1920px){
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1050px){
+
+/*.menu-left{
+    display: none;
+}*/
+
+/*.menu-left-small{
+    display: block;
+    float: left;
+    margin: 10px 0;
+}*/
+
+/*.menu-left-small img{
+    height: 40px;
+    position: relative;
+}*/
+.nav{
+   background-color: #898989;
+    position: absolute;
+    display: none;
+    right: 0px;
+    top: 80px;
+    width: 212px;
+}
+.nav:hover {
+    display: block;
+
+    }
+
+.sub{
+ /* position: static;*/
+  display: none;
+}
+
+
+.menu img:hover +.nav{
+    display: block;
+}
+
+.nav>ul>li{
+    float: none;
+    margin: 22px 10px;
+    padding-left: 7px;
+}
+nav:hover{
+    display: block;
+}
+
+.menu img{
+    padding-right: 10px;
+    padding-bottom: 180px;
+    padding-left: 20px;
+}
+.sub {
+    background-color: rgba(255, 255, 255, 0.59);
+    /*border-radius: 8px;*/
+    margin: -32px -205px;
+    padding: 10px 46px;
+    display: none;
+    position: absolute;
+    width: 120px;
+}
+
+.sub li {
+    padding-right: 195px;
+}
+
+.sub li a{
+   padding-right: 100px; 
+}
+    
+
+
+.wrap{
+    margin: -1155px auto 0 auto;
+    max-width: 600px;
+}
+.block {
+    margin: 20px 40px;
+}
+
+.inset-2 {
+    margin: 251px 120px;
+}
+}
+
+@media (max-width: 767px){
+.nav{
+   background-color: #898989;
+    position: absolute;
+    display: none;
+    right: 0px;
+    top: 80px;
+    width: 212px;
+}
+.nav:hover {
+    display: block;
+
+    }
+
+/*.sub{
+  position: static;
+  
+}*/
+
+
+.menu img:hover +.nav{
+    display: block;
+}
+
+.nav>ul>li{
+    float: none;
+    margin: 22px 10px;
+  
+}
+nav:hover{
+    display: block;
+}
+
+.menu img{
+    padding-right: 10px;
+    padding-bottom: 180px;
+    padding-left: 20px;
+}
+.sub {
+    background-color: #898989;
+    /* border-radius: 8px; */
+    /* margin: -32px -205px; */
+    padding: 10px 46px;
+    display: none;
+    position: absolute;
+    width: 120px;
+    position: static;
+}
+
+.sub li {
+    padding-right: 195px;
+}
+
+.sub li a{
+   padding-right: 100px; 
+}
+    
+
+.content-1 {
+    height: 700px;
+}
+
+.inset-1 {
+    margin: 100px auto;
+  }
+
+.content-2 {
+    height: 700px;
+  
+}
+.inset-2{
+	margin: 10px 215px;
+}
+.block{
+	margin: 5px 20px;
+}
+.wrap{
+	max-width: 202px;
+}
+
+}
+
+
+

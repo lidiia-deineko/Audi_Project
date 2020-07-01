@@ -1,0 +1,208 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	height: 60px;
+	background: rgb(137, 137, 137);
+    background: -moz-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -webkit-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -o-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -ms-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: linear-gradient(0deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);   
+    padding: 20px 20px;
+}
+.menu-left{
+	float: left;
+	margin: 10px 0; 
+	color: #e8e6e6;
+	font-size: 30px;
+
+}
+
+/*Выпадающее меню*/
+.button{
+color: rgb(239, 239, 239);
+font-size: 20px;
+padding: 8px 20px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+color: black;
+text-decoration: none;
+border: 1px solid #1c2329;
+}
+.active{
+	background-color: #988383;
+}
+
+/*Подсвечивание кнопок*/
+.nav >ul >li >a:hover{
+	background-color: #e8e3e3;
+	color: red;
+}
+
+.nav{
+	margin: 0px auto;	
+	width: 800px;
+	position: relative;
+}
+
+.nav ul{
+	list-style: none;
+	padding-left: 10px;
+}
+.nav>ul>li{
+	float: left;
+	margin: 0px 10px;
+	padding-bottom: 15px;
+}
+
+/*Подменю*/
+.sub{
+	background-color: rgba(255, 255, 255, 0.59);
+	border-radius: 8px;
+	margin: 10px 0px;
+	padding: 10px 60px;
+	display: none;
+	position: absolute;
+}
+.sub li{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sub li a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+
+}
+.sub >li >a:hover{
+	color: red;
+	font-size: large;
+}
+.nav ul li:hover .sub{
+	display: block;
+}
+
+
+img{
+	float: right;
+	max-width: 150px;
+	height: auto;
+}
+
+.content-1{
+	background-image: url(../image/audi-bg-2.jpg);
+	height: 600px;
+background-size: cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+padding: 1px;
+}
+.inset-1{
+	max-width: 350px;
+	height: 100px;
+	border: 1px solid red;
+	background-color: rgba(255, 255, 255, 0.59);
+	-moz-border-radius-topleft: 40px;
+	-webkit-border-top-left-radius: 40px;
+	 border-top-left-radius: 40px;
+	-moz-border-radius-bottomright: 40px;
+	-webkit-border-bottom-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	margin: 100px 85px;
+	padding: 10px
+}
+.inset-1 p{
+	text-align: center;
+
+}
+.flag-b{
+	height: 70px;
+	background-color: black;
+}
+.flag-r{
+	height: 70px;
+	background-color: red;
+}
+.flag-y{
+	height: 70px;
+	background-color: yellow;
+}
+.content-2{
+	background-image: url(../image/backgr-1.jpg);
+	height: 700px;
+	background-size: cover;
+	background-position: 50% 95%;
+	background-repeat: no-repeat;
+	padding: 1px;
+}
+.inset-2{
+	max-width: 50px;
+	height: 50px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	background-color: #6a696c;
+	padding: 50px 50px;
+	margin: 140px 215px;
+}
+.block{
+	width: 180px;
+	height: 250px;
+	
+	float: left;
+	margin: 0 20px;
+	background: rgb(137, 137, 137);
+    background: -moz-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -webkit-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -o-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: -ms-linear-gradient(270deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    background: linear-gradient(0deg, rgb(137, 137, 137) 30%, rgb(198, 198, 198) 70%);
+    border-radius: 30px;
+    padding: 60px 10px 10px 10px;
+    border: 1px solid #1c2329;
+}
+.wrap{
+	margin: -785px auto 0 auto;
+	max-width: 1000px;
+	/*height: 400px;*/
+}
+.button-2{
+	color: rgb(239, 239, 239);
+font-size: 20px;
+padding: 8px 20px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+color: red;
+text-decoration: none;
+margin: 0 35px;
+border: 1px solid #1c2329;
+}
+.footer{
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+.contacts{
+	padding: 10px;
+	float: left;
+}
+.email{
+	float: right;
+	padding-top: 50px
+}
+
+/*Доработка меню для телефона*/
+.menu-left-small{
+	display: none;
+}
